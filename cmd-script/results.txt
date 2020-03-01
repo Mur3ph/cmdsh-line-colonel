@@ -1,0 +1,60 @@
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : DESKTOP-I73UVPN
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : home
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . : home
+   Description . . . . . . . . . . . : Intel(R) 82567LF-2 Gigabit Network Connection
+   Physical Address. . . . . . . . . : 00-24-E8-09-D2-14
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::e58a:20c9:f2ce:1bba%16(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.1.9(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Saturday 29 February 2020 14:13:51
+   Lease Expires . . . . . . . . . . : Sunday 1 March 2020 23:10:51
+   Default Gateway . . . . . . . . . : 192.168.1.1
+   DHCP Server . . . . . . . . . . . : 192.168.1.1
+   DHCPv6 IAID . . . . . . . . . . . : 67118312
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-20-C9-13-FB-00-24-E8-09-D2-14
+   DNS Servers . . . . . . . . . . . : 192.168.1.1
+                                       192.168.1.1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Pinging google.com [74.125.193.100] with 32 bytes of data:
+Reply from 74.125.193.100: bytes=32 time=7ms TTL=50
+Reply from 74.125.193.100: bytes=32 time=7ms TTL=50
+Reply from 74.125.193.100: bytes=32 time=7ms TTL=50
+Reply from 74.125.193.100: bytes=32 time=7ms TTL=50
+
+Ping statistics for 74.125.193.100:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 7ms, Maximum = 7ms, Average = 7ms
+
+Tracing route to google.com [74.125.193.100]
+over a maximum of 30 hops:
+
+  1    <1 ms    <1 ms    <1 ms  192.168.1.1 
+  2     6 ms     6 ms     6 ms  78.152.192.1 
+  3     6 ms     6 ms     6 ms  89.19.72.29 
+  4     7 ms     7 ms     7 ms  72.14.210.21 
+  5     7 ms     7 ms     7 ms  74.125.243.231 
+  6     7 ms     7 ms     7 ms  172.253.71.172 
+  7     7 ms     9 ms     7 ms  172.253.72.225 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     7 ms     7 ms     7 ms  ig-in-f100.1e100.net [74.125.193.100] 
+
+Trace complete.
