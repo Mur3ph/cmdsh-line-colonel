@@ -6,4 +6,4 @@
 
 ## Images
 
-![Linux Filesystem Structure](C:/dev/os/workspace/images/filesystem-structure.png)
+![Linux Filesystem Structure](images/filesystem-structure.png)
